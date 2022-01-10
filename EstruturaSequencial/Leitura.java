@@ -1,4 +1,7 @@
+package EstruturaSequencial;
+
 import java.util.Scanner;
+
 public class Leitura {
     public static void main(String[] args) {  
         Scanner sc = new Scanner(System.in);
@@ -11,12 +14,11 @@ public class Leitura {
         System.out.println("Tamanho de Camisa: ");
         char tamBlusa = sc.next().charAt(0);
 
-
-
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         System.out.println("Altura: " + altura);
         System.out.println("Tamanho Blusa: " + tamBlusa);
+
         sc.close();
     }
 }

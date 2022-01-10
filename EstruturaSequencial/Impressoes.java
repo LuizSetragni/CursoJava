@@ -1,6 +1,8 @@
+package EstruturaSequencial;
+
 import java.util.Locale;
 
-public class Ex1 {
+public class Impressoes {
     public static void main(String[] args) {
         String product1 = "Computer";
         String product2 = "Office desk";
