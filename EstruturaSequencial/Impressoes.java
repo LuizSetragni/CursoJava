@@ -1,12 +1,15 @@
 package EstruturaSequencial;
 
 import java.util.Locale;
-
+/**
+ * Exercicio de Fixação, usando Locale,
+ * Impressões de varias maneiras em tela.
+ */
 public class Impressoes {
     public static void main(String[] args) {
         String product1 = "Computer";
         String product2 = "Office desk";
-
+        //Declaração de variaveis
         int age = 30;
         int code = 5290;
         char gender = 'F';
@@ -14,7 +17,7 @@ public class Impressoes {
         double price1 = 2100.0;
         double price2 = 650.50;
         double measure = 53.234567;
-
+        //Impressões usando o necessario para fazer com o que dê certo a formatação em tela.
         System.out.println("Products:");
         System.out.println(product1 + ", which price is $ " + price1);
         System.out.println(product2 + ", wich price is $ " + price2);
