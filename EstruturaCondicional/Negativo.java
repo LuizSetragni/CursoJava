@@ -16,6 +16,9 @@ public class Negativo {
         if(num < 0) System.out.println("Negativo");
         else System.out.println("Não Negativo");
 
+        //testando expressão condicional ternária
+        System.out.println((num < 0) ? "Negativo" : "Não Negativo");
+
         sc.close();
     }
 }

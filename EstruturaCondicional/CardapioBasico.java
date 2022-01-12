@@ -46,6 +46,9 @@ public class CardapioBasico {
                 System.out.printf("Refrigerante:\nTOTAL: R$ %.2f\n", (quant * 1.50));
                 break;
             }
+            default:{
+                break;
+            }
         }
     }
 }
