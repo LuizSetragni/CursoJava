@@ -1,6 +1,6 @@
 package EstruturasRepetitivas;
 import java.util.Scanner;
-public class conversãoCelsius {
+public class ConversãoCelsius {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double result, valor;

@@ -1,6 +1,6 @@
 package EstruturasRepetitivas;
 import java.util.Scanner;
-public class somaInteiros {
+public class SomaInteiros {
     public static void main(String[] args) {
         int num = 0, result = 0;
         
